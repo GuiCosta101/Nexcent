@@ -87,3 +87,30 @@ main{
     margin-top: 8px;
 }
 
+/* Section-Clients */
+.section-clients{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-family-primary);
+    text-align: center;
+}
+
+.section-clients h2{
+    color: var(--color-Neutral-D-Grey);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+}
+
+.section-clients p{
+    color: var(--color-Neutral-Grey);
+}
+
+.container-item-clients{
+    display: flex;
+    gap: 136px;
+    margin-top: 8px;
+}
