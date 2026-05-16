@@ -1,1 +1,49 @@
 @import url("./global.css");
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: var(--color-Neutral-Silver);
+}
+
+.navegation-header ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.navegation-header ul li a{
+    text-decoration: none;
+    color: #18191F;
+    font-family: var(--font-family-primary);
+    transition: 0.3s;
+}
+
+.navegation-header ul li a:hover{
+    color: var(--color-Neutral-Grey-blue);
+}
+
+.btn-header{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.btn-header a{
+    text-decoration: none;
+    font-family: var(--font-family-primary);
+    color: var(--color-Primary);
+}
+
+.btn-header .btn-primary{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: var(--font-size-body-3);
+    background-color: var(--color-Primary);
+    color: var(--color-Neutral-White);
+}
+
+/* Main */
