@@ -47,3 +47,43 @@ header{
 }
 
 /* Main */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+    padding: 96px 0;
+    background-color: var(--color-Neutral-Silver);
+    font-family: var(--font-family-primary);
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main-content h1{
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    width: 657px;
+}
+
+.main-content h1 span{
+    color: var(--color-Primary);
+}
+
+.main-content p{
+    color: var(--color-Neutral-Grey);
+}
+
+.main-content a{
+    text-decoration: none;
+    background-color: var(--color-Primary);
+    color: var(--color-Neutral-White);
+    border-radius: 4px;
+    width: 128px;
+    padding: 14px 32px;
+    margin-top: 8px;
+}
+
